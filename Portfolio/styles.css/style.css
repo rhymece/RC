@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inconsolata&family=Montserrat&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap');
+
+/*#527853
+#F9E8D9
+#F7B787
+#EE7214
+
+
+
+#C3E2C2
+#EAECCC
+#DBCC95
+#CD8D7A
+*/
+
+body {
+    width: 100%;
+}
+.site-sidebar {
+    display: inline-block;
+    width: 25%;
+    height: 500px;
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+    background-color: #EAECCC;
+    position: fixed;
+}
+.sidebar-nav, .sidebar-social-media {
+    text-align: left;
+    padding-left: 2rem;
+}
+.avatar{
+    border-radius: 50%;
+    display: block;
+    margin: 3rem auto;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.portfolio, .hire-me {
+    display: block;
+}
+.linkedin-icon, .facebook-icon, .twitter-icon {
+    width: 10%;
+}
+.site-main {
+    margin-left: 25%;
+    padding-left: 2rem;
+}
