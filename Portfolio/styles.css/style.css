@@ -15,7 +15,7 @@
 
 body {
     width: 100%;
-    background-image: url("/Portfolio/images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -27,7 +27,7 @@ body {
     width: 25%;
     text-align: center;
     font-family: 'Monserrat', sans-serif;
-    background-color: rgba(234,236,204,0.8);
+    background-color: rgba(234,236,204,0.94);
     position: fixed;
     height: 100%;
 }
@@ -43,8 +43,11 @@ body {
 .uppercase {
     text-transform: uppercase;
 }
-.portfolio, .hire-me {
+.work-experience, .contact {
     display: block;
+}
+.work-experience {
+    padding-top: 2rem;
 }
 .linkedin-icon, .facebook-icon, .twitter-icon {
     width: 10%;
@@ -58,6 +61,10 @@ body {
 }
 .page-title {
     padding-top: 3rem;
+}
+nav a {
+    text-decoration: none;
+    color: #EE7214;
 }
 .portfolio-timeline {
     display: grid;
