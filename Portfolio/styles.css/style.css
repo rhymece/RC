@@ -17,7 +17,7 @@ body {
     width: 100%;
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
     margin: 0;
 
@@ -27,22 +27,25 @@ body {
     width: 25%;
     text-align: center;
     font-family: 'Monserrat', sans-serif;
-    background-color: rgba(234,236,204,0.94);
+    background-color: rgba(82,120,83,0.8);
     position: fixed;
     height: 100%;
 }
 .sidebar-nav, .sidebar-social-media {
     text-align: left;
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-top: 3rem;
 }
 .sidebar-nav {
     font-size: 75%;
     line-height: 2.0;
 }
+.projects:hover, .cv:hover, .contact:hover, .about-me:hover {
+    text-decoration: underline;
+}
 .sidebar-social-media h4 {
     font-size: 70%;
-    color: #EE7214;
+    color: #fff;
 }
 .avatar {
     border-radius: 50%;
@@ -76,7 +79,7 @@ body {
 }
 nav a {
     text-decoration: none;
-    color: #EE7214;
+    color: #fff;
 }
 .portfolio-timeline {
     display: grid;
