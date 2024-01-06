@@ -71,6 +71,7 @@ body {
     margin-left: 25%;
     padding-left: 2rem;
     background-color: azure;
+    height: 100%;
     z-index: 10;
     font-family: 'Montserrat', sans-serif;
 }
@@ -103,7 +104,6 @@ nav a {
     padding-bottom: 1rem;
     
 }
-
 .button {
     background-color: #EE7214;
     color: #fff;
@@ -121,3 +121,53 @@ nav a {
     margin: 2rem 0;
     text-align: center;
 }
+
+/* PROJECTS SECTION BEGINS */
+
+hr {
+    border: 2px solid #000;
+    margin-right: 30px;
+}
+.button-box {
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .button {
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 30px;
+    background-color: #C6A969;
+    text-decoration: none;
+  }
+  .button:hover {
+    text-decoration: underline; 
+  }
+ 
+  .projects-img img {
+    width: 100%;
+  }
+  .projects-timeline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem auto;
+  }
+  .projects-desc {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: auto;
+}
+.vl {
+    border-left: 5px solid #000;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 1/4;
+    margin: auto; 
+  }
+  .projects-img {
+    grid-column: 3/4;
+    grid-row: 1/4;
+    margin: auto;
+    text-align: center;
+  }
+
+  
