@@ -71,7 +71,7 @@ body {
     margin-left: 25%;
     padding-left: 2rem;
     background-color: azure;
-    height: 100%;
+    background-size: auto;
     z-index: 10;
     font-family: 'Montserrat', sans-serif;
 }
@@ -97,7 +97,7 @@ nav a {
     width: 90%;
 }
 .timeline-description {
-    padding: 0 5rem;
+    padding: 0 2.5rem;
     list-style-type: circle;
 }
 .timeline-description li {
@@ -132,13 +132,6 @@ hr {
     text-align: center;
     margin-top: 4rem;
   }
-  .button {
-    color: #fff;
-    border-radius: 15px;
-    padding: 10px 30px;
-    background-color: #C6A969;
-    text-decoration: none;
-  }
   .button:hover {
     text-decoration: underline; 
   }
@@ -169,5 +162,24 @@ hr {
     margin: auto;
     text-align: center;
   }
-
+/* ------------MEDIA --------------*/
+@media (max-width: 1000px){
+    .portfolio-timeline {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .timeline-text-side {
+        grid-column: 1/1;
+        grid-row: 1/2;
+    }
+    .timeline-image-side {
+        grid-column: 1/1;
+        grid-row: 2/3; 
+    }
+}
+@media (max-width: 480px) {
+    .button-box {
+        text-align: left; 
+    }
+}
   
