@@ -7,6 +7,9 @@ let imgByu = 'Portfolio/images/BYU.png';
 let imgCpu = 'Portfolio/images/CPU.png';
 let imageElement = document.querySelectorAll(".timeline-image");
 let copyRightYear = document.querySelector("#year");
+let authorName = document.querySelector("#author");
+
+
 
 copyRightYear.innerHTML = 2024;
 
@@ -27,6 +30,11 @@ imageElement[4].setAttribute('alt', 'BYU image');
 
 imageElement[5].setAttribute('src', imgCpu);
 imageElement[5].setAttribute('alt', 'Central Philippine University image');
+
+authorName.textContent = "Rhym E. Cagbay";
+
+
+
 
 
 

@@ -60,9 +60,6 @@ body {
 .about-me, .contact {
     display: block;
 }
-/*.about-me {
-    padding-top: 2rem;
-}*/
 .linkedin-icon, .facebook-icon, .twitter-icon {
     width: 10%;
 }
@@ -174,6 +171,13 @@ hr {
     z-index: 10;
     position: fixed;
 }
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
 
 /* -----------CONTACT ME-----------*/
 .contact-heading {
@@ -262,7 +266,7 @@ hr {
         display: none;
     }
     .site-sidebar {
-        height: 40%;
+        height: 60%;
     }
 
 }
