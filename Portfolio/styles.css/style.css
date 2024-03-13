@@ -212,10 +212,13 @@ hr {
 
 /* ------------MEDIA --------------*/
 @media (max-width: 1000px){
-    body {
+    .avatar {
         margin-top: 0;
-        padding-top: 0;
     }
+    .avatar-content p {
+        font-size: 90%;
+    }
+    
     .portfolio-timeline {
         display: grid;
         grid-template-columns: 1fr;
@@ -255,8 +258,11 @@ hr {
     .button-box {
         text-align: left; 
     }
-    .sidebar-social-media {
-        width: 60%;
+    .sidebar-nav, .sidebar-social-media {
+        display: none;
+    }
+    .site-sidebar {
+        height: 40%;
     }
 
 }
