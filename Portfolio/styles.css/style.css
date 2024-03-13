@@ -23,7 +23,6 @@ body {
 
 }
 .site-sidebar {
-    display: inline-block;
     width: 25%;
     text-align: center;
     font-family: 'Monserrat', sans-serif;
@@ -171,8 +170,9 @@ hr {
     padding: 15px;
     text-align: center;
     width: 100%;
-    position: fixed;
     bottom: 0;
+    z-index: 10;
+    position: fixed;
 }
 
 /* -----------CONTACT ME-----------*/
@@ -212,6 +212,10 @@ hr {
 
 /* ------------MEDIA --------------*/
 @media (max-width: 1000px){
+    body {
+        margin-top: 0;
+        padding-top: 0;
+    }
     .portfolio-timeline {
         display: grid;
         grid-template-columns: 1fr;
@@ -224,11 +228,36 @@ hr {
         grid-column: 1/1;
         grid-row: 2/3; 
     }
+    
+    .site-sidebar{
+        position: relative;
+        width: 100%;
+        height: 80%;
+        text-align: center;
+        z-index: 1;
+        margin-top: 0;
+        padding-top: 0;
+
+    }
+    .site-main {
+        margin-left: 0;
+        display: block;
+        z-index: 10;
+    }
+    footer {
+        z-index: 2;
+    }
+    .sidebar-social-media {
+        width: 40%;
+    }
 }
 @media (max-width: 480px) {
     .button-box {
         text-align: left; 
     }
-    
+    .sidebar-social-media {
+        width: 60%;
+    }
+
 }
   
