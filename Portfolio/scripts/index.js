@@ -1,4 +1,4 @@
-let fullName = "Rhym E. Cagbay";
+let fullName = "Rhym Cagbay";
 let imgGrifols = 'Portfolio/images/Grifols.png';
 let imgBoomarang = 'Portfolio/images/Boomarang.png';
 let imgTangent = 'Portfolio/images/Tangent.png';
