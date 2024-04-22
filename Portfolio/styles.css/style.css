@@ -213,6 +213,22 @@ hr {
     font-style: italic;
 }
 
+/*----------------CV---------------*/
+.cv-container {
+    background-color: #d5d4d4;  
+}
+.cv-page {
+    width: 600px;
+    height: 900px;
+    border: 1px solid #000;
+    margin: auto;
+    text-align: center;
+
+}
+.cv-container h1 {
+    color: #6b14ee;
+}
+
 
 /* ------------MEDIA --------------*/
 @media (max-width: 1000px){
